@@ -16,5 +16,51 @@
 				<a href="career-goals.html">Career Goals</a>
 			</nav>
 		</header>
+
+		<main>
+			<!--media info-->
+
+			<h2>Contact me</h2>
+			<form action="https://wp.zybooks.com/form-viewer.php" method="post">
+				<label>First name: <input type="text" name="first-name" /></label>
+				<br />
+				<label>Last name: <input type="text" name="last-name" /></label>
+				<br />
+				<label>Company: <input type="text" name="company" /></label>
+				<br />
+				<label>Email: <input type="email" name="email" /></label>
+				<br />
+				<label>Phone: <input type="tel" name="phone" /></label>
+				<br />
+				<label
+					>Message: <br />
+					<textarea name="message"></textarea>
+				</label>
+				<br />
+
+				<strong>Best time to contact:</strong>
+				<label><input type="radio" name="contact-time" value="am" />A.M.</label>
+				<label><input type="radio" name="contact-time" value="pm" />P.M.</label>
+				<label
+					><input type="radio" name="contact-time" value="any" />Anytime</label
+				>
+				<br />
+
+				Preferred contact method:
+				<select name="contact-method">
+					<option value="phone">Phone</option>
+					<option value="email">Email</option>
+					<option value="text">Text</option>
+				</select>
+				<br />
+				<button type="submit">Send</button>
+			</form>
+		</main>
+		<footer>
+			<a href="resume.html">Resume</a> |
+			<a href="cover-letter.html">Cover Letter</a> |
+			<a href="career-goals.html">Career Goals</a>
+			<p>&copy; 2025 Elizabeth Jeudy</p>
+		</footer>
 	</body>
 </html>
