@@ -1,0 +1,58 @@
+/* colors
+#111111
+#A7A6A7
+#363636
+#FFFFFF
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #111111;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(210, 108, 201);
+}
+
+nav a,
+footer a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: rgb(191, 155, 188);
+}
+
+ul {
+  list-style-type: circle;
+
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+th {
+  border-right: 1px solid rgb(191, 155, 188);
+  ;
+  border-collapse: collapse;
+}
+
+.edu {
+  border: 1px solid #ccc;
+}
+
+footer .sig {
+  color: rgb(191, 155, 188);
+}
