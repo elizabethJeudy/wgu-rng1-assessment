@@ -45,6 +45,7 @@ h2 {
   color: #706D54;
   font-size: 30px;
   padding: 5px 0px 5px 0px;
+  text-align: center;
 }
 
 nav a,
@@ -86,10 +87,13 @@ th,
 td {
   border: 1px solid #706D54;
   padding: 8px;
+
 }
 
 th {
   color: #706D54;
+  font-family: "Yeseva One",
+    serif;
 }
 
 .section-header {
@@ -109,10 +113,70 @@ strong {
   padding: 10px 0px 10px 0px;
 }
 
+.career-goals-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  padding-bottom: 20px;
+}
 
+.goal-box {
+  border: 2px solid #706D54;
+  border-radius: 8px;
+  padding: 16px;
+
+}
+
+.goal-title {
+
+  margin-bottom: 8px;
+  color: #DBDBDB;
+  font-family: "Yeseva One",
+    serif;
+}
 
 mark {
   background-color: #DBDBDB;
+}
+
+form {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+label {
+  font-family: "Yeseva One",
+    serif;
+}
+
+input,
+button {
+  background-color: #C9B194;
+  border: 1px solid #DBDBDB;
+  padding: 5px;
+  width: 100%;
+  margin: 5px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+}
+
+button,
+span {
+  font-size: 18px;
+  font-family: "Yeseva One",
+    serif;
+}
+
+button:hover,
+#radio:hover {
+  cursor: pointer;
 }
 
 footer {
