@@ -104,6 +104,17 @@ th {
   text-align: center;
 }
 
+p,
+strong {
+  padding: 10px 0px 10px 0px;
+}
+
+
+
+mark {
+  background-color: #DBDBDB;
+}
+
 footer {
   padding-top: 10px;
   text-align: center;
