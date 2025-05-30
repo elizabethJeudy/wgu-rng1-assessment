@@ -6,6 +6,7 @@
 		<title>Career Goals</title>
 		<link rel="stylesheet" href="styles.css" />
 		<script src="script.js"></script>
+		<!--lottie animation-->
 	</head>
 	<body>
 		<header>
@@ -26,6 +27,15 @@
 			-->
 			<div class="career-goals-container">
 				<h2>One Year Career Goals</h2>
+				<video
+					autoplay
+					loop
+					muted
+					playsinline
+					style="width: 100px; height: 100px; display: block; margin: 0 auto"
+				>
+					<source src="media/HKr9RrrLj4.mp4" type="video/mp4" />
+				</video>
 				<div class="goal-box">
 					<div class="goal-title">
 						1. Secure a Junior Software Developer Position
@@ -147,7 +157,12 @@
 					<option value="text">Text</option>
 				</select>
 				<br />
-				<button type="submit">Send</button>
+				<button type="submit" onclick="playSound()">Send</button>
+				<audio
+					id="woosh-sound"
+					src="media/woosh-260275.mp3"
+					preload="auto"
+				></audio>
 				<img
 					src="media/Wave Hello Sticker by corgiyolk.gif"
 					alt="Waving hand"

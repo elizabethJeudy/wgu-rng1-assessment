@@ -23,6 +23,10 @@ nav {
   padding: 15px 0px 10px 0px;
 }
 
+#currentDate {
+  text-align: center;
+}
+
 .experience {
   display: flex;
   justify-content: center;
