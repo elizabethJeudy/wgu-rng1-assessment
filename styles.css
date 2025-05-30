@@ -12,14 +12,39 @@
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
-  background-color: #111111;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #C9B194;
   color: #333;
   padding: 20px;
+
+}
+
+nav {
+  padding: 15px 0px 10px 0px;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+}
+
+.experience li {
+  padding-right: 5px;
 }
 
 h1 {
-  color: rgb(210, 108, 201);
+  font-family: "Yeseva One",
+    serif;
+  color: #706D54;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Yeseva One",
+    serif;
+  color: #706D54;
+  font-size: 30px;
+  padding: 5px 0px 5px 0px;
 }
 
 nav a,
@@ -29,8 +54,12 @@ footer a {
   color: #333;
 }
 
+a {
+  color: #706D54;
+}
+
 a:hover {
-  color: rgb(191, 155, 188);
+  color: #DBDBDB;
 }
 
 ul {
@@ -43,16 +72,44 @@ section {
   padding: 10px;
 }
 
-th {
-  border-right: 1px solid rgb(191, 155, 188);
-  ;
-  border-collapse: collapse;
+section .edu {
+  margin: 0px;
 }
 
-.edu {
-  border: 1px solid #ccc;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid #706D54;
+  padding: 8px;
+}
+
+th {
+  color: #706D54;
+}
+
+.section-header {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.sub-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  padding-top: 10px;
+  text-align: center;
 }
 
 footer .sig {
-  color: rgb(191, 155, 188);
+  padding-top: 10px;
+  color: #706D54;
 }

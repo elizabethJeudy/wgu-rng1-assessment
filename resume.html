@@ -6,74 +6,159 @@
 		<title>Resume</title>
 		<link rel="stylesheet" href="styles.css" />
 		<script src="script.js"></script>
+		<!--font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Yeseva+One&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<header>
 			<h1>Elizabeth Jeudy</h1>
 			<nav>
 				<a href="resume.html">Resume</a> |
-				<a href="cover-letter.html">Cover Letter</a> |
-				<a href="career-goals.html">Career Goals</a>
+				<a href="cover-letter.html"> Cover Letter</a> |
+				<a href="career-goals.html"> Career Goals</a>
 			</nav>
 		</header>
 
 		<main>
-			<section>
-				<h2>Experience</h2>
+			<h2>Experience</h2>
+			<section class="experience">
+				<br />
 				<article>
 					<h3>Software Developer</h3>
-					<p><strong>Company ABC</strong> - <em>2024 - Present</em></p>
+					<p>
+						<strong>
+							<a
+								href="https://www.indeed.com/career-advice/resume-samples/software-developer"
+								>River Tech</a
+							>
+						</strong>
+						- <em>2024 - Present</em>
+					</p>
+					<ul>
+						<li>
+							Analyzed networking systems and improved functionality by two
+							points
+						</li>
+						<li>
+							Worked with team of 20 developers to improve software capabilities
+							for corporate clients
+						</li>
+						<li>Wrote proprietary software for over 50 clients</li>
+						<li>
+							Maintained systems for 25 different clients using C++ and Linux
+							platforms
+						</li>
+					</ul>
 				</article>
+				<br />
 				<article>
 					<h3>Software Developer</h3>
-					<p><strong>Company ABC</strong> - <em>2024 - Present</em></p>
+					<p>
+						<strong
+							><a
+								href="https://www.indeed.com/career-advice/resume-samples/software-developer"
+								target="_blank"
+								>Retail Ocean</a
+							></strong
+						>
+						- <em>2020 - 2022</em>
+					</p>
+					<ul>
+						<li>Tested stability for over 100 different websites</li>
+						<li>
+							Worked with team of 50 developers writing security and monitoring
+							software
+						</li>
+						<li>
+							Aided in training of new developers on in-house systems using PHP
+							and HTML platforms
+						</li>
+					</ul>
 				</article>
+				<br />
 				<article>
 					<h3>Software Developer</h3>
-					<p><strong>Company ABC</strong> - <em>2024 - Present</em></p>
+					<p>
+						<strong>
+							<a
+								href="https://www.indeed.com/career-advice/resume-samples/software-developer"
+								target="_blank"
+								>CCC Technology Inc</a
+							></strong
+						>
+						- <em>2017 - 2019</em>
+					</p>
+					<ul>
+						<li>
+							Performed user needs testing and contributed to company action
+							plan
+						</li>
+						<li>Developed and tested new software to meet client needs</li>
+						<li>
+							Assisted in developing and implementing new in-house data
+							organization system
+						</li>
+					</ul>
 				</article>
 			</section>
-
 			<section>
-				<h2>Skills</h2>
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-				</ul>
-			</section>
-
-			<section class="edu">
-				<h2>Education</h2>
 				<table>
-					<caption>
-						Academic History
-					</caption>
 					<tr>
-						<th>School</th>
-						<th>Degree</th>
-						<th>Graduation Year</th>
+						<th class="section-header" colspan="2">Skills</th>
+						<th class="section-header" colspan="3">Education</th>
 					</tr>
 					<tr>
-						<th>Western Governors University</th>
-						<th>BS in Software Engineering</th>
-						<th>2027</th>
-					</tr>
-					<tr>
-						<th>Palm Beach State College</th>
-						<th>BA in Psychology</th>
-						<th>2022</th>
+						<td colspan="2">
+							<ul style="list-style: none; padding: 0; margin: 0">
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>JavaScript</li>
+								<li>Python</li>
+								<li>Java</li>
+							</ul>
+						</td>
+						<td colspan="3">
+							<div class="sub-header">Academic History</div>
+							<table
+								style="
+									width: 100%;
+									border: none;
+									text-align: center;
+									margin-top: 10px;
+								"
+							>
+								<tr>
+									<th>School</th>
+									<th>Degree</th>
+									<th>Graduation Year</th>
+								</tr>
+								<tr>
+									<td>Western Governors University</td>
+									<td>BS in Software Engineering</td>
+									<td>2027</td>
+								</tr>
+								<tr>
+									<td>Palm Beach State College</td>
+									<td>BA in Psychology</td>
+									<td>2022</td>
+								</tr>
+							</table>
+						</td>
 					</tr>
 				</table>
 			</section>
 
-			<hr />
 			<div id="currentDate"></div>
 		</main>
 		<footer>
 			<a href="resume.html">Resume</a> |
-			<a href="cover-letter.html">Cover Letter</a> |
-			<a href="career-goals.html">Career Goals</a>
+			<a href="cover-letter.html"> Cover Letter</a> |
+			<a href="career-goals.html"> Career Goals</a>
 			<p class="sig">&copy; 2025 Elizabeth Jeudy</p>
 		</footer>
 	</body>
